@@ -44,6 +44,13 @@
       <section id="contact">
         <h1>Kontakt</h1>
         <form>
-          <label>Imię:</label>
-          <input type="text" name="name" required>
-          <label>E-mail:</label
+  <div class="form-step">
+    <label>Imię:</label>
+    <input type="text" name="name" required>
+    <label>E-mail:</label>
+    <input type="email" name="email" required>
+    <label>Temat:</label>
+    <input type="text" name="subject" required>
+    <div class="form-nav">
+      <button type="button" class="prev-step">Poprzedni krok</button>
+      <button type="button" class="next-step">Następny krok</button>
