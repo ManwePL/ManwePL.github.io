@@ -49,5 +49,4 @@
     <input type="text" name="name" required>
     <label>E-mail:</label>
     <input type="email" name="email" required>
-
-
+    
